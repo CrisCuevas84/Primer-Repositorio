@@ -1,0 +1,21 @@
+
+.texto{
+    padding: 20px;
+    text-align: center;
+}
+
+.imagen{
+    margin: 5px;
+    border: 2px solid gray;
+    width: 300px;    
+    float: left;
+}
+
+img{
+    width: 100%;
+    height: auto;    
+}
+
+.imagen:hover{
+    border: 5px solid rgb(194, 66, 51);
+}

@@ -1,0 +1,37 @@
+body *{
+    outline: 1px solid red;
+}
+
+div.container{
+    width: 980px;
+    min-height: 800px;
+    background-color: burlywood;
+    margin: 0px auto;
+}
+    div.container div.top{
+        min-height: 150px;
+        background-color: cadetblue;
+    }
+        div.container div.top div.image{
+            width: 300px;
+            display: inline-block;
+        }
+
+        div.container div.top ul{
+            display: inline-block;
+        }
+
+        div.container div.top ul li{
+            display: inline-block;
+            font-size: 30px;
+            padding: 10px;
+        }
+
+    div.container h1{
+        text-align: center;
+    }
+
+    div.container div.bottom{
+        min-height: 400px;
+        background-color: cornflowerblue;
+    }

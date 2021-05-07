@@ -1,0 +1,29 @@
+body{
+    background-color: darkgray;
+    color: floralwhite;
+}
+
+    h1{
+        background-color: darksalmon;
+        color: darkslategray;
+        text-decoration: underline;
+        text-transform: uppercase; /*transforma a letras mayúsculas*/
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    #p1{
+        text-align: center;
+        text-decoration: line-through;
+        text-transform: lowercase; /*tranforma a letra minúscula*/
+        font-family: cursive;
+        font-size: 20px;
+    }
+
+    #p2{
+        text-align: right;
+        text-decoration: overline;
+        text-transform: capitalize; /*deja la primera letra en mayúscula y lo demás en minúscula*/
+        font-family: monospace;
+        font-size: 30px;
+    }
+/* shift + alt + a para comentar */

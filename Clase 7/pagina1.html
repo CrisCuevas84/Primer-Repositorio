@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Incluyendo código JavaScript -->
+    <script>
+        /* Definiendo las variables  */
+
+        //comentario afecta solo una línea
+        var x = 10;
+        var y = 35;
+        //se necesita realizar la suma de las variables
+        var suma = x + y;
+        //escribir en pantalla el resultado
+        document.write("la suma es: "+suma);
+
+        //Agregando condiciones em JavaScript
+        //Si el if es verdadero entonces se ejecuta todo lo que está dentro del if
+        /*
+        if(y>18){        
+            document.write("<br>Usted es mayor de edad");
+        }
+        else{
+            document.write("<br>Usted es menor de edad");
+        }*/
+        if(y < 15){
+            document.write("<br>Usted es un niño<br>");
+        }
+        else if(y >= 15 && y < 18){
+            document.write("<br>Usted es adolescente<br>");
+        }
+        else if(y >= 18 && y <= 29){
+            document.write("<br>Usted es joven <br>");
+        }
+        else if(y > 29 && y <= 50){
+            document.write("<br>Usted es adulto joven<br>");
+        }
+        else{
+            document.write("<br>Usted es adulto mayor<br>");
+        }
+
+        //Ciclos en JavaScript
+        //Ciclo for
+        var nueva = 0;
+        for(i = 1; i <= 100; i++){
+            //document.write("Número: "+i+"<br>");
+            nueva = nueva + i;
+            }
+        document.write("La suma total es: "+nueva);
+
+        //Ciclo while
+        document.write("<br><br>");
+        var j = 1;
+        while(j < 50){
+            document.write("<br>El número par es: "+(2*j))
+            j = j + 1;
+            //es igual j++
+        }
+
+        //Definiendo una función
+        function mifuncion(num1, num2){
+            var suma = num1 + num2;
+            document.write("<br><br>La suma es: "+suma);
+        }
+        mifuncion(10,20);
+        mifuncion(100, 25);
+
+        //Listas (Arreglos/Arrays): es una lista o serie de elementos del mismo tipo de datos
+        //puede ser numérico, texto(literal o caracteres), booleano (True or false
+        //Como definir un arreglo en JavaScripr
+        var nombres = ["Pedro","Juan","Diego"];
+        document.write("<br><br>"+nombres[0]);
+        document.write("<br><br>"+nombres[1]);
+        document.write("<br><br>"+nombres[2]);
+        
+        for(k = 0; k <nombres.length; k = k + 1){
+            document.write("<br><br>"+nombres[k]);
+        }
+
+        //Removiendo un ítem al final del arreglo (pop())
+        document.write("<br><br>Eliminando elemento en el arreglo al final")
+        nombres.pop();
+        for(k = 0; k < nombres.length; k = k + 1){
+            document.write("<br><br>"+nombres[k]);
+        }
+
+        //Agregando un elemento al final del arreglo (push())
+        document.write("<br><br>Agregando elemento en el arreglo al final")
+        nombres.push("Carolina");
+        for(k = 0; k < nombres.length; k = k + 1){
+            document.write("<br><br>"+nombres[k]);
+        }
+        document.write("<br><br>Agregando elemento en el arreglo al comienzo")
+        nombres.unshift("Cristian");
+        for(k = 0; k < nombres.length; k = k + 1){
+            document.write("<br><br>"+nombres[k]);
+        }
+
+        function a(){
+            console.log('hello');
+            return 15;
+        }
+        x = a();
+        console.log('x is', x);
+    </script>
+    <title>Intro JavaScript</title>
+</head>
+<body>
+    
+</body>
+</html>

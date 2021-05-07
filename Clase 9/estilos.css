@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px){
+    .texto[data-abbr]::before{
+        content: attr(data-abbr);
+    }
+    .texto > span {
+        display: none;
+    }
+}

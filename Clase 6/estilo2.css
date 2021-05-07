@@ -1,0 +1,25 @@
+.caja{
+    width: 200px;
+    height: 150px;
+    padding: 120px;
+    /*margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 2px;   
+    margin-bottom: 50px;*/
+    /* margin: 30px 100px 2px 50px */
+    margin: 100px;
+    background-color: grey;
+    border: 20px dotted rgb(146, 146, 233);
+}
+
+.p1{
+    border-style: dashed; /* líneas discontinuas */
+}
+
+.p2{
+    border-style: double; /* doble */
+}
+
+.p3{
+    border-style: groove;
+}

@@ -1,0 +1,40 @@
+.barra{
+    background-color: cornflowerblue;
+    overflow: hidden;
+}
+
+.barra a{
+    padding: 15px;
+    text-align: center;
+    color: rgb(182, 91, 91);
+    display: block;
+    float: left;
+    text-decoration: none;
+}
+
+.barra a:hover{
+    background-color: darkolivegreen;
+    color: darkseagreen;
+}
+
+.columna{
+    float: left;
+    padding: 25px;
+    width: 25%;
+}
+
+@media screen and (max-width: 900px) {
+    .columna{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .columna{
+        width: 100%;
+    }
+    .barra a{
+        float: none;
+        width: 100%;
+    }
+}

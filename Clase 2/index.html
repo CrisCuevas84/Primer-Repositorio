@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mi primera tabla</h1><br>
+    <hr>
+    <!--Definiendo una tabla-->
+    <table border="5">
+        <thead bgcolor="lightgreen">
+            <tr><!--Definiendo las filas con tr-->
+                <th>Código</th>
+                <th>Lugar de vacaciones</th>
+                <th>Fotografía</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody bgcolor="skyblue">
+            <tr>
+                <td>1</td>
+                <td>La Serena</td>
+                <td><img src="laserena.jpg" width="200px" height="150px" 
+                    alt="imagen de La Serena desde el alto"></td>
+                <td><a href="https://www.google.cl" target="_blank">Ir a Google</a></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>La Serena</td>
+                <td><img src="laserena.jpg" width="200px" height="150px" 
+                    alt="imagen de La Serena desde el alto"></td>
+                <td><a href="https://www.google.cl" target="_blank">Ir a Google</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Elementos de formulario</h2>
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="" id="nombre">
+    <br><br>
+    <label for="apellido">Apellido:</label>
+    <input type="text" name="" id="apellido">
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="text" name="" id="email">
+    <br><br>
+    <label for="password">Contraseña:</label>
+    <input type="password" name="" id="password">
+    <br><br>
+    <label for="masculino">Masculino</label>
+    <input type="radio" name="genero" id="masculino">
+    <br><br>
+    <label for="femenino">femenino</label>
+    <input type="radio" name="genero" id="femnino"><br><br>
+    <label for="opinion">Prefiero no opinar</label>
+    <input type="radio" name="genero" id="opinion">
+    <br><br><br>
+    <label for="color">Color favorito</label>
+    <select name="color" id=""> <!--Llamado combobox-->
+        <option value="azul">Azul</option>
+        <option value="rojo">Rojo</option>
+        <option value="verde">Verde</option>
+    </select>
+    <br><br><br>
+    <label for="pizza">Pizza</label>
+    <input type="checkbox" name="pizza" id="pizza">
+    <br>
+    <label for="burger">Hamburguesa</label>
+    <input type="checkbox" name="burger" id="burger">
+    <br><br>
+    <textarea name="description" id="cajita" cols="30" rows="10"></textarea>
+    <br><br>
+    <input type="hidden" name="id" value="7">
+    <br><br>
+    <input type="submit" value="Enviar">
+    <br><br><br>
+</body>
+</html>

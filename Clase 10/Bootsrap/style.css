@@ -1,0 +1,13 @@
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #dde7f2;
+    border-radius: .3rem;
+}
+
+.accordion{
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #49a21d;
+    border-radius: .3rem;
+}

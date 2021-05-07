@@ -1,0 +1,188 @@
+/*body *{
+    outline: 1px solid red;
+}*/
+
+div.container{
+    width: 980px;
+    height: 1100px;
+    background-color: rgb(58, 35, 33);
+    margin: 0px auto;
+}
+/* Desde acá Comienza la parte llamada Top */
+    div.container div.top{
+        height: 60px;
+        background-color: rgb(235, 238, 238);
+    }
+        div.container div.top h1{
+            width: 500px;
+            display: inline-block;
+            font-family: cursive;
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+
+        div.container div.top div.frase{
+            width: 450px;
+            display: inline-block;
+            text-align: right;
+            font-size: 24px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;            
+        }
+
+/* Desde acá comienza la parte llamada Medio */
+    div.container div.medio{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        min-height: 200px;
+        background-color: rgb(58, 35, 33);
+    }
+        div.container div.medio img{
+            width: 440px;
+            height: 270px;
+            display: inline-block;
+            margin: 20px;
+            border: 5px solid grey;
+        }
+
+        div.container div.medio div.about{
+            display: inline-block;
+            width: 440px;
+            height: 280px;
+            vertical-align: top;
+            margin: 20px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        div.container div.medio div.about div.sub{
+            background-color: rgb(124, 123, 123);
+            height: 50px;
+            margin: 0px;            
+        }
+            div.container div.medio div.about div.sub h3{
+                color: aliceblue;
+                background-color: grey;
+                margin-top: 0px;
+                margin-left: 10px;
+                font-size: 24px;
+                vertical-align: middle;
+            }
+            a{
+                color: rgb(36, 35, 35);
+            }
+        div.container div.medio div.about p{
+            width: 420px;
+            background-color: rgb(255, 255, 255);
+            height: 220px; 
+            text-align: justify;
+            margin-top: 0px;   
+            margin-left: 10px;                 
+        }
+
+/* Desde acá comienza la parte llamada Bottom */
+    div.container div.bottom{
+        min-height: 200px;
+        background-color: rgb(58, 35, 33);
+        margin: 10px;
+    }
+    div.container div.bottom img{
+        width: 275px;
+        height: 150px;
+    }
+        div.container div.bottom div.left{
+            vertical-align: top;
+            background-color: ivory;
+            width: 287px;
+            height: 650px;
+            display: inline-block;
+            margin: 15px;
+        }
+            div.container div.bottom div.left div.png img{
+                width: 40px;
+                height: 40px;
+                margin: 6px;
+            }
+            
+        div.container div.bottom div.center{
+            vertical-align: top;
+            background-color: ivory;
+            width: 287px;
+            height: 650px;
+            display: inline-block;
+            margin: 15px;
+        }
+            div.container div.bottom div.center div.png img{
+                width: 40px;
+                height: 40px;
+                margin: 6px;
+            }
+        div.container div.bottom div.right{
+            background-color: ivory;
+            width: 287px;
+            height: 650px;
+            display: inline-block;
+            margin: 15px;
+        }
+            div.container div.bottom div.right div.png img{
+                width: 40px;
+                height: 40px;
+                margin: 6px;
+            }
+
+            #p1{
+                height: 200px;
+                width: 260px;
+                text-align: justify;
+                margin: 10px;
+            }
+            #p2{
+                width: fit-content;
+                margin-top: 25px;
+                padding: 5px;
+                text-align: center;
+                background-color: rgb(47, 136, 47);
+                margin-left: auto;  
+                margin-right: auto;
+                border-radius: 5px;                
+            }
+            #p2 a{
+                color: rgb(255, 255, 255);
+                background-color: rgb(47, 136, 47);   
+                margin-left: auto;  
+                margin-right: auto;
+                text-decoration: none;
+            }
+            h4{
+                background-color: rgb(150, 149, 148);
+                margin: 0px;
+                min-height: 45px;
+                font-size: larger;
+                color: white;
+                text-align: justify;
+            }
+/* Desde acá  comienza la parte llamada Footer */
+    div.container h2{
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        margin-top: 50px;
+        height: 40px;
+        color: rgb(75, 75, 75);
+        font-size: 20px;
+    }
+    div.container div.footer{
+        height: 100px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        text-decoration: underline;
+        color: rgb(109, 106, 106);
+    }
+
+        div.container div.footer IMG{
+            width: 25px;
+            height: 25px;
+            vertical-align: top;
+        }
+        div.container div.footer h2{
+            width: 980px;
+            height: 40px;
+            text-align: center;
+        }
+

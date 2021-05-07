@@ -1,0 +1,32 @@
+#container{
+    background-color: skyblue;
+    display: inline-block;
+    width: 500px;
+    height: 2000px;
+}
+
+#caja1, #caja2, #caja3{
+    width: 200px;
+    height: 200px;
+    border: 2px;
+    padding: 10px;
+    display: inline-block;
+}
+
+#caja1{
+    background-color: darkcyan;
+    position: relative;
+    top: 200px;
+    left: 150px;
+}
+
+#caja2{
+    background-color: brown;
+    position: fixed;
+    top: 30px;
+    left: 1000px;
+}
+
+#caja3{
+    background-color: darkgoldenrod;
+}
